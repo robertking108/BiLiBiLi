@@ -33,8 +33,6 @@ public class NativeBitmapFactory {
             if (android.os.Build.VERSION.SDK_INT >= 11) {
                 System.loadLibrary("ndkbitmap");
                 nativeLibLoaded = true;
-            } else {
-                nativeLibLoaded = false;
             }
         } catch (Exception e) {
             e.printStackTrace();

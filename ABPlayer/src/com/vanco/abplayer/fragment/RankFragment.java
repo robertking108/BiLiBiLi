@@ -73,7 +73,7 @@ public class RankFragment extends Fragment implements IXListViewRefreshListener,
 		VideoItem tempItem = new VideoItem();
 		tempItem.setAid("7");
 		tempItem.setTitle("[示例数据]童年动画主题曲");
-		tempItem.setPic("http://i0.hdslb.com/320_180/u_user/53cb3e2f7f3efd6464b82c91ea9a1236.jpg");
+		tempItem.setPic("http://img1.jqw.com/2012/09/14/582716/product/b201209142111446994.jpg");
 		tempItem.setAuthor("根号⑨");
 		tempItem.setPlay("23333");
 		templist.add(tempItem);

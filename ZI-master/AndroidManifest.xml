@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yixia.zi"
-    android:versionCode="1"
-    android:versionName="1.0" >
+ >
     
-    <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="17" />
+
     
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
@@ -18,6 +15,7 @@
     <uses-permission android:name="android.permission.GET_TASKS"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <application
+
         android:icon="@drawable/ic_launcher"
         android:label="@string/zi_app_name" >
         

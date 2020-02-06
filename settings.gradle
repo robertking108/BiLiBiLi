@@ -1,6 +1,5 @@
 include ':ABPlayer'
 include ':OneXListviewLibrary'
-include ':appcompat_v7'
 include ':main'
 include ':ZI-master'
 include ':viewPagerlibrary'

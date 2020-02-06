@@ -247,7 +247,7 @@ public class VideoInfoFragment extends Fragment{
 			}else{
 				bofangButton.setText("加载失败");
 			}
-			if(label != null){
+			if(label != null && label.length() > 20){
 				label = label.substring(20);
 				labelTextView.setText("标签："+label);
 				if(videoInfoList != null){

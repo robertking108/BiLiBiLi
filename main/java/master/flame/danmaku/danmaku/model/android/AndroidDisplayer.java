@@ -129,20 +129,13 @@ public class AndroidDisplayer extends AbsDisplayer<Canvas> {
     
     @SuppressLint("NewApi")
     private static final int getMaximumBitmapWidth(Canvas c) {
-        if(Build.VERSION.SDK_INT >= 14) {
             return c.getMaximumBitmapWidth();
-        } else {
-            return c.getWidth();
-        }
+
     }
 
     @SuppressLint("NewApi")
     private static final int getMaximumBitmapHeight(Canvas c) {
-        if(Build.VERSION.SDK_INT >= 14) {
             return c.getMaximumBitmapHeight();
-        } else {
-            return c.getHeight();
-        }
     }
 
     public static void setTypeFace(Typeface font){

@@ -220,11 +220,7 @@ public class DanmakuView extends View implements IDanmakuView, IDanmakuViewContr
     @SuppressLint("NewApi")
     private void postInvalidateCompat() {
         mRequestRender = true;
-        if(Build.VERSION.SDK_INT >= 16) {
             this.postInvalidateOnAnimation();
-        } else {
-            this.postInvalidate();
-        }
     }
 
     private void lockCanvas() {
@@ -442,12 +438,7 @@ public class DanmakuView extends View implements IDanmakuView, IDanmakuViewContr
     @Override
     @SuppressLint("NewApi")
     public boolean isHardwareAccelerated() {
-        // >= 3.0
-        if (Build.VERSION.SDK_INT >= 11) {
             return super.isHardwareAccelerated();
-        } else {
-            return false;
-        }
     }
 
     @Override

@@ -13,6 +13,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.PopupWindow;
 import android.widget.VideoView;
+
+import com.danmaku.flame.R;
+
 import master.flame.danmaku.controller.DrawHandler.Callback;
 import master.flame.danmaku.controller.IDanmakuView;
 import master.flame.danmaku.danmaku.loader.ILoader;
@@ -34,7 +37,6 @@ import java.net.URL;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import com.minisea.example.R;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -257,7 +259,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         BaseDanmaku danmaku = DanmakuFactory.createDanmaku(BaseDanmaku.TYPE_SCROLL_RL);
         //for(int i=0;i<100;i++){
         //}
-        danmaku.text = "杩欐槸涓�鏉″脊骞�" + System.nanoTime();
+        danmaku.text = "tttt" + System.nanoTime();
         danmaku.padding = 5;
         danmaku.priority = 1;
         danmaku.isLive = islive;

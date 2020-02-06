@@ -25,7 +25,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -39,7 +39,7 @@ import android.widget.TextView;
  * @author wwj_748
  * @date 2014/8/9
  */
-public class DonghuaActivity extends ActionBarActivity {
+public class DonghuaActivity extends AppCompatActivity {
 	public int mAreaType;
 	private View backButton;
 	private TextView titleText;

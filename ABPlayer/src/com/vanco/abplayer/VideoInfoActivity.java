@@ -13,7 +13,7 @@ import com.vanco.abplayer.util.ArrayUtils;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.View;
 import android.view.Window;
@@ -21,7 +21,7 @@ import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class VideoInfoActivity extends ActionBarActivity{
+public class VideoInfoActivity extends AppCompatActivity{
 	private View backButton;
 	private TextView titleText;
 	private Handler handler = new Handler() {
